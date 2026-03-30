@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | StaySafariKE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { 
+            --safari-teal: #005f73; 
+            --safari-dark: #004d5e;
+            --safari-gold: #ee9b00; 
+            --bg-light: #f8f9fa; 
+        }
+        
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg-light); color: #333; line-height: 1.6; }
+
+        /* Navigation Bar */
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 10%;
+            background: var(--safari-dark);
+            color: white;
+        }
+        .top-nav a { color: white; text-decoration: none; font-weight: bold; margin-left: 20px; font-size: 0.9rem; }
+        .logo-text { font-weight: 800; font-size: 1.2rem; letter-spacing: 1px; }
+
+        .hero-section {
+            background: var(--safari-teal);
+            color: white;
+            padding: 80px 10%;
+            text-align: center;
+            border-bottom: 5px solid var(--safari-gold);
+        }
+
+        .container { padding: 60px 10%; max-width: 1000px; margin: 0 auto; background: white; margin-top: -40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        
+        .mission-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px; }
+        .feature { text-align: center; padding: 20px; }
+        .feature i { font-size: 2.5rem; color: var(--safari-gold); margin-bottom: 15px; }
+
+        .contact-box { background: var(--safari-teal); color: white; padding: 40px; border-radius: 20px; margin-top: 50px; text-align: center; }
+        .contact-box h2 { margin-top: 0; }
+        .contact-info { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 20px; }
+        .info-item { display: flex; align-items: center; gap: 10px; }
+
+        footer { text-align: center; padding: 40px; color: #888; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <nav class="top-nav">
+        <div class="logo-text">STAYSAFARIKE</div>
+        <div>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <h1>Your Trusted Coastal Partner</h1>
+        <p>Premium Stays and Reliable Rides in Malindi & Watamu</p>
+    </div>
+
+    <div class="container">
+        <h2>Our Story</h2>
+        <p>Started in 2024, <b>StaySafariKE</b> was born out of a simple need: reliable, high-quality travel services on the Kenyan Coast. We noticed that finding a clean villa or a well-maintained car shouldn't be a gamble. That's why every listing on our platform is "Safari Verified."</p>
+
+        <div class="mission-grid">
+            <div class="feature">
+                <i class="fas fa-shield-check"></i>
+                <h3>Verified Listings</h3>
+                <p>We personally inspect every villa and car before it goes live.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Based in Malindi, we are always a phone call away if you need help.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-gem"></i>
+                <h3>Premium Only</h3>
+                <p>We focus on quality over quantity. Only the best for our guests.</p>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h2>Get In Touch</h2>
+            <p>Ready to plan your trip? Visit our office or reach out directly.</p>
+            <div class="contact-info">
+                <div class="info-item"><i class="fas fa-map-marker-alt"></i> Casuarina Road, Malindi</div>
+                <div class="info-item"><i class="fas fa-phone"></i> +254 700 686 722</div>
+                <div class="info-item"><i class="fas fa-envelope"></i> bookings@staysafari.ke</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 StaySafariKE. All rights reserved.
+    </footer>
+
+</body>
+</html>
